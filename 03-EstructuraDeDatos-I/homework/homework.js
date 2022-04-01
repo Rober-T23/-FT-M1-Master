@@ -19,7 +19,7 @@ function nFibonacci(n) {
   // nFibonacci(1) // 1 // el elemento 1 es 1
   // nFibonacci(6) // 1 // el elemento 6 es 8
     if(n==0 || n==1) return n
-    return nFibonacci(n-1) + nFibonacci(n-2)
+    return nFibonacci(n-1) + nFibonacci(n-2)//=>
 }
 
 // Para esta parte no es necesario utilizar recursión.
